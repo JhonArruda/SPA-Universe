@@ -1,21 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Universe</title>
+
+    <link rel="stylesheet" href="/style.css"/>
+
 </head>
-<body>
+<body class="home">
     <nav>
-        <img src="/assets/Vector.svg" alt="Galáxia pequena">
+        <div class="icon is-animating"></div>
+        <img class="icon" src="/assets/Vector.svg" alt="Galáxia pequena">
         <a href="/" onclick="route()">Home</a>
         <a href="/universe" onclick="route()">O Universo</a>
         <a href="/exploration"onclick="route()">Exploração</a>
     </nav>
 
     <div id="app"></div>
-    
+
     <script type="module" src="/src/index.js"></script>
 </body>
 </html>
