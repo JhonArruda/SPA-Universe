@@ -10,10 +10,6 @@
 
 /* body e navegation */
 body {
-    background-color: blue;
-}
-
-body {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -25,7 +21,7 @@ body a {
 }
 
 body a:hover {
-    color: hsl(0, 0%, 100%);
+    color: #ffffff;
 }
 
 nav {
@@ -38,11 +34,11 @@ nav {
 }
 
 /*Geral*/
-body h1 {
+ h1 {
     font-weight: 700;
     font-size: 4.8rem;
 
-    color: #e1e1e6;
+    color: #ffffff;
 }
 
 body p {
@@ -52,6 +48,7 @@ body p {
     padding-top: 1rem;
 
     font-size: 1.8rem;
+    line-height: 160%;
     color: #c4c4cc;
 }
 
@@ -101,6 +98,30 @@ body p {
 
 /*home*/
 
-.pageHome {
-    background: url(/assets/mountains-universe-1.png) no-repeat cover;
+#app button {
+    width: 25rem;
+    height: 6rem;
+
+    background: transparent;
+
+    margin-left: 8rem;
+    font-weight: 700;
+
+    border: 2px solid #ffffff;
+    border-radius: 0.5rem;
+
+    margin-top: 2.4rem;
+    
+    cursor: pointer;
 }
+
+#app button:hover {
+    background-color: #ffffff;
+}
+
+#app button a:hover {
+    color: #02789c;
+    background-color: #ffffff;
+}
+
+/*Universe*/
